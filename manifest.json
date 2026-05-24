@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TabOrg",
+  "description": "A new-tab workspace that helps you search, group, save, and reopen Chrome tabs.",
+  "version": "0.1.0",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "sessions"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
